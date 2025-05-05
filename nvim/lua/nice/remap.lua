@@ -36,3 +36,6 @@ vim.keymap.set("n", "<C-h>", "<C-w>h") -- Move left
 vim.keymap.set("n", "<C-l>", "<C-w>l") -- Move right
 vim.keymap.set("n", "<C-j>", "<C-w>j") -- Move down
 vim.keymap.set("n", "<C-k>", "<C-w>k") -- Move up
+
+-- Remap Esc
+vim.keymap.set("i", "jj", "<Esc>", { noremap = true })
